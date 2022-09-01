@@ -1,6 +1,10 @@
 # TAGS
- A tag label é uma etiqueta para a entrada de dados, para o input>.
+ A tag label é uma etiqueta para a entrada de dados, para o input.
+<<<<<<< HEAD
 =======
+=======
+
+>>>>>>> parent of d788653 (Merge branch 'main' of https://github.com/fpelvison/HTML-E-CSS---ALURA)
 # CSS
 Qual propriedade devo alterar para que os meus input tenham um espaço entre a borda e o conteúdo?
 
