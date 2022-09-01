@@ -1,5 +1,9 @@
 # TAGS
+<<<<<<< HEAD
  A tag label é uma etiqueta para a entrada de dados, para o input>.
+=======
+ A tag <label> é uma etiqueta para a entrada de dados, para o input.
+>>>>>>> 08e8ecbef6b35b20dfb89f507028663bdf720022
 
 # CSS
 Qual propriedade devo alterar para que os meus input tenham um espaço entre a borda e o conteúdo?
