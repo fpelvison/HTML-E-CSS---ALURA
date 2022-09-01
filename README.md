@@ -1,16 +1,16 @@
 # TAGS
- A tag <label> é uma etiqueta para a entrada de dados, para o <input>.
+ A tag label é uma etiqueta para a entrada de dados, para o input>.
 
 # CSS
-Qual propriedade devo alterar para que os meus <input> tenham um espaço entre a borda e o conteúdo?
+Qual propriedade devo alterar para que os meus input tenham um espaço entre a borda e o conteúdo?
 
 A propriedade padding serve para alterarmos o espaçamento interno, entre o conteúdo e a borda.
 
 # AULA
 A criar um formulário HTML
-A tag que o representa é a <form>
-A tag <input>, para a entrada de dados do usuário
-A criar uma etiqueta para o input, com a tag <label>
+A tag que o representa é a form
+A tag input, para a entrada de dados do usuário
+A criar uma etiqueta para o input, com a tag label
 A conectar um input com o seu label
 Colocamos um id para o input e associamos esse id ao atributo for do label
 Alguns tipos de input, como text e submit
@@ -33,7 +33,7 @@ Como funciona a hierarquia no CSS
 O select, que é seletor, um campo de seleção de um item, e o option, que representa cada opção do seletor
 
 # Qual tag usamos para marcar um título de um grupo de campos do formulário?
-A tag <legend></legend> que usamos para um título de um grupo de campos em qualquer formulário.
+A tag legend que usamos para um título de um grupo de campos em qualquer formulário.
 
 Alguns tipos de inputs para celular: email, tel, number, password, date, datetime, month e search
 Como não permitir que um campo não seja preenchido, através do atributo required
@@ -51,10 +51,10 @@ A modificar o estilo do ponteiro do mouse, quando passar por cima de determinado
 A realizar transformações nos nossos elementos, como aumentar proporcionalmente a escala de determinado elemento ou rotacioná-lo, através da propriedade CSS transform.
 
 # Qual tag uso para criar linhas em uma tabela?
-Utilizamos a tag <tr></tr> para marcar uma linha de uma tabela.
+Utilizamos a tag tr para marcar uma linha de uma tabela.
 
 # Como dividir uma tabela de forma mais semântica?
-As tags <thead>, <tbody> e <tfoot> ajudam a deixar o conteúdo da tabela mais bem dividido e mais semântico.
+As tags thead, tbody e tfoot ajudam a deixar o conteúdo da tabela mais bem dividido e mais semântico.
 
 As tabelas também nos oferecem a possibilidade de juntar células e montar um visual diferente. Por exemplo, quando uma linha, que deveria ter 5 células, passa a mostrar só "uma célula".
 
@@ -62,9 +62,9 @@ Esse efeito é conseguido através da propriedade colspan=X, onde X é o número
 
 Portanto, em uma tabela de 5 colunas, para ter uma célula única na linha, usamos um código assim:
 
-<tr>
-    <td colspan="5">Rio de Janeiro</td> 
-</tr>
+tr
+    td colspan="5">Rio de Janeiro td 
+tr
 
 # Nesta aula, aprendemos:
 A criar uma tabela HTML
