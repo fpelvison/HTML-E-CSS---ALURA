@@ -1,10 +1,9 @@
 # TAGS
  A tag label é uma etiqueta para a entrada de dados, para o input.
-<<<<<<< HEAD
+
 =======
 =======
 
->>>>>>> parent of d788653 (Merge branch 'main' of https://github.com/fpelvison/HTML-E-CSS---ALURA)
 # CSS
 Qual propriedade devo alterar para que os meus input tenham um espaço entre a borda e o conteúdo?
 
@@ -141,3 +140,54 @@ p:first-line {
 Como criar um elemento no HTML antes do meu item, através do CSS?
 Com a propriedade :before
 Quando queremos criar um elemento na página, via CSS, antes do elemento do HTML, usamos a propriedade :before.
+
+# SELETORES AVANÇADOS
+Com os seletores avançados do CSS,podemos selecionar os filhos diretos de main, para tanto, utilizaremos o sinal >, e todo os outros parágrafos serão ignorados, afinal são filhos diretos da <section> e não de main.
+
+main > p {
+    background: red; 
+Com o sinal de > podemos selecionar os elementos filhos direto da main.
+}
+
+Conseguimos selecionar o primeiro filho com o seletor que acabamos de conhecer, mas neste caso estamos falando do primeiro irmão que vem depois de um elemento.
+Neste caso, usamos img como elemento âncora e para o primeiro irmão usamos o sinal de "+"
+
+img + p { 
+    background: blue;
+}
+Para selecionar todos os parágrafos localizados depois de uma imagem usamos o seletor ~
+img ~ p {
+    background: yellow
+}
+
+No CSS podemos, inclusive, excluir itens específicos. Se quisermos excluir todos os parágrafos que não compõe missao, escreveremos:
+
+.principal p:not(#missao) {
+    p:not() {
+
+    }
+    background: orange;
+}
+A exclusão é um elemento poderoso no CSS, principalmente quando realizamos manutenção em algum código que já existe e que não devemos modificar tanto o HTML.
+
+# Selecionando um elemento específico.
+
+Usando essa estrutura:
+h2
+section
+Filho direto --- h2
+             --- p
+             --- p
+Irmão do p   --- h2
+Como fazemos para selecionar o último h2?
+section > p + h2
+O último h2 é filho direto da section e irmão do p.
+
+# CALC
+A propriedade calc nos dá o poder de fazer com o que cremos valores proporcionais específicos.
+.utensilios {
+    width: calc(40% - (26px * 4);
+    float: left;
+    Margin: 0 20px 20px 
+
+}
